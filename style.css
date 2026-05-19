@@ -1,0 +1,133 @@
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conte{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right,black,gray,purple,pink,blue,aqua,white);
+}
+
+.card{
+    width: 35rem;
+    height: 24rem;
+    background: rgb(16, 198, 211);
+    padding: 1rem;
+    border-radius: 10px;
+    color: white;
+}
+
+.h1{
+    text-align: center;
+}
+
+.h11{
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.from{
+    margin: 1rem;
+}
+
+label{
+    font-size: 1.4rem;
+}
+
+input{
+    padding: 5px;
+    width: 190px;
+    font-size: 1.2rem;
+    background: rgba(0, 140, 255, 0.39);
+}
+
+.main-btn{
+    padding: 7px;
+    background: blue;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    margin-left: 80%;
+    cursor: pointer;
+}
+
+.main-btn:hover{
+    background: white;
+    color: blue;
+}
+
+.retry-btn{
+
+    display: none;
+
+    padding: 10px 15px;
+
+    background: crimson;
+
+    color: white;
+
+    border: none;
+
+    cursor: pointer;
+
+    margin: 20px auto;
+
+    display: none;
+
+}
+
+.retry-btn:hover{
+    background: white;
+    color: crimson;
+}
+
+.textp{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.textr{
+    text-align: center;
+    color: red;
+    font-size: 1.5rem;
+}
+
+.inner{
+    text-align: center;
+    color: lime;
+    font-size: 1.5rem;
+}
+
+.h11 span:nth-child(1){color:#ff0000;}
+.h11 span:nth-child(2){color:#ff4000;}
+.h11 span:nth-child(3){color:#ff8000;}
+.h11 span:nth-child(4){color:#ffbf00;}
+.h11 span:nth-child(5){color:#ffff00;}
+.h11 span:nth-child(6){color:#bfff00;}
+.h11 span:nth-child(7){color:#80ff00;}
+.h11 span:nth-child(8){color:#40ff00;}
+.h11 span:nth-child(9){color:#00ff00;}
+.h11 span:nth-child(10){color:#00ff40;}
+.h11 span:nth-child(11){color:#00ff80;}
+.h11 span:nth-child(12){color:#00ffbf;}
+.h11 span:nth-child(13){color:#00ffff;}
+.h11 span:nth-child(14){color:#00eeffa3;}
+.h11 span:nth-child(15){color:#0080ff;}
+.h11 span:nth-child(16){color:#0040ff;}
+.h11 span:nth-child(17){color:#0000ff;}
+.h11 span:nth-child(18){color:#4000ff;}
+.h11 span:nth-child(19){color:#8000ff;}
+.h11 span:nth-child(20){color:#bf00ff;}
+.h11 span:nth-child(21){color:#ff00ff;}
+.h11 span:nth-child(22){color:#ff0080;}
+.h11 span:nth-child(23){color:#ff0040;}
+.h11 span:nth-child(24){color:#290fd6;}
+.h11 span:nth-child(25){color:#ffccff;}
+
