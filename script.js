@@ -1,4 +1,7 @@
 
+window.onload = () => {
+    alert('Make sure your device is not in silent mode');
+};
 const totalAtempts = 5;
 
 let atemt = 0;
@@ -54,6 +57,8 @@ function result(int){
         textp.textContent = "You have won ⭐";
 
         won++;
+        var au = new Audio('ad.mp3');
+        au.play();
 
     }
 
@@ -63,7 +68,8 @@ function result(int){
         "You have lost. The random number was " + randomNumberValue + " ☹️";
 
         lost++;
-
+  var au1 = new Audio('ad1.mp3');
+        au1.play();
     }
 
     elemt.innerHTML = `Won: ${won} | Lost: ${lost}`;
@@ -85,4 +91,5 @@ retryBtn.addEventListener("click", function(){
     location.reload();
 
 });
+
 
